@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Event Listeners in D3</title>
+  <title>Note App</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>My notes.</h1>
+  <h1>Notes</h1>
   <div id="notes">
     <p class="note">
       Need to go to the store.
@@ -19,10 +19,11 @@
     </p>
 
   </div>
+    <p class="preview hide"></p>
      <form id="new-note">
     <input type="text">
-    <button>Add Note</button>
-    <button id="remove"> Remove all notes</button>
+    <button type="submit">Add Note</button>
+    <button class="remove"type="button"> Remove all notes</button>
   </form>
   
   <script src="https://d3js.org/d3.v4.js">
